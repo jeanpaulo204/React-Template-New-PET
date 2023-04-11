@@ -3,7 +3,7 @@ import { Slider } from './templatecard/imageCard';
 
 
 
-export const Inicio = () => {
+export const Iniciopage = () => {
 
 
  
