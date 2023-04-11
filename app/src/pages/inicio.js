@@ -1,18 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Iniciopage } from '../Menu/inicio/template';
+import { Header } from '../Menu/components/header';
+
 
 const Inicio = () =>{
   return (
     <div>
-      <h1>Página Inicial</h1>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/denunciar">Denunciar</Link>
-          </li>
-        </ul>
-      </nav>
+      <Header/>
+      <Iniciopage/>
     </div>
+
+   
+
   );
 }
 
