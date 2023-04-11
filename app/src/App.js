@@ -1,17 +1,8 @@
-import './App.css';
-import { Header } from './Menu/components/header';
-import { Inicio } from './Menu/inicio/template';
+import React from 'react';
+import Rotas from "./routes";
 
-function App() {
-  return (
-<div>
-<div className="App">
-<Header/>
-</div>
-<Inicio/>
-</div>
-
-  );
+export default function App() {
+   return (
+       <Rotas />
+   );
 }
-
-export default App;
