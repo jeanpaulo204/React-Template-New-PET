@@ -7,9 +7,9 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-
+import { Icon } from '@mdi/react';
+import { mdiDog } from '@mdi/js';
 import Button from '@mui/material/Button';
-
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
@@ -38,7 +38,7 @@ return (
   <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+        <Icon path={mdiDog} size={2} color="white" />
           <Typography
             variant="h6"
             noWrap
