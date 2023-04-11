@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Header } from '../Menu/components/header';
 
 const Denunciar = () => {
     return (
         <div>
-            <h1>Denunciar</h1>
-            <Link to="/">retornar a página inicial</Link>
+          <Header/>
         </div>
     );
 }
