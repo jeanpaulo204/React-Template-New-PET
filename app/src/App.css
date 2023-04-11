@@ -110,7 +110,7 @@ margin-bottom: 50px;
     background-image: url(../public/pets.png);
     background-position:center;
     background-size:cover;
-    height: 670px;
+    height: 580px;
   }
   
 
@@ -119,7 +119,8 @@ margin-bottom: 50px;
 
     
     .banner_options {
-        height:210px;
+     
+       
         display:grid;
     }
     
@@ -207,7 +208,7 @@ margin-bottom: 50px;
     background-image: url(../public/pets.png);
     background-position:center;
     background-size:cover;
-    height: 670px;
+    height: 770px;
   }
   
 
