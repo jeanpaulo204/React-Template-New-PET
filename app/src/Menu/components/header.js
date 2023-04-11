@@ -12,8 +12,10 @@ import { mdiDog } from '@mdi/js';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import { Link } from 'react-router-dom';
+import Stack from '@mui/material/Stack';
 
-const pages = ['Inicio', 'Denuciar-Maus Tratos', 'Adotar-Me' , 'Informações'];
+const pages = ['Inicio', 'denunciar', 'Adotar-Me' , 'Informações'];
 
 
 
@@ -112,16 +114,15 @@ return (
           >
             LOGO
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                {page}
-              </Button>
-            ))}
+          <Box sx={{  display: { xs: 'none', md: 'flex' } }}>
+            <Stack direction="row" spacing={2}>
+
+            <Button color="secondary"><Link className="header" to="/">Inicio</Link></Button>
+            <Button color="secondary"><Link className="header" to="/denunciar">Denuciar-Maus Tratos</Link></Button>
+            <Button color="secondary"><Link className="header" to="/">Adotar-Me</Link></Button>
+            <Button color="secondary"><Link className="header" to="/">Informações</Link></Button>
+  
+            </Stack>
           </Box>
 
         
