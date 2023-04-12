@@ -4,6 +4,7 @@ import img3 from './img/img3.png';
 import img4 from './img/img4.png';
 import img8 from './img/img8.png';
 import img7 from './img/img7.png';
+import { Carde } from '../../../Menu/components/card';
 
 export const Iniciobanner = () => {
 
@@ -22,21 +23,21 @@ return (
             </div>
             <div class="widget_body flex">
                 <article>
-                    <a href="">
-                    <div class="new_data">
-                    <div class="new_posted_at">Requisitos para adoção </div>
-                    <div class="new_comments">12 comentarios</div>
-                    </div>
-                    <div class="news_thumbnail">
-                    <img src={img3} alt="Girl And Dog!" />
-                    </div>
-                    <div class="new_title">
-                        Você Pode Ser Essa Familia
-                    </div>
-                    <div class="news_resume">Os principais requisitos para adoção de cães em ONGs parceiras da Petz são acertar na escolha do tutor para evitar devolução ou fuga. Como dito, eles fazem uma entrevista que determina se consideram a pessoa adequada ou não. 
-                     A questão de personalidade também conta, pois, por exemplo, se quiser adoção de cachorro para fazer companhia para um idoso, cães filhotes não são recomendados. Isso porque eles possuem muita energia e precisam de exercícios diários. O ideal para as ONGs é unir o cachorro à família ideal. 
-                   </div>
-                  </a>
+        
+
+                
+                 
+                    <Carde 
+                    title="Você Pode Ser Essa Familia" 
+                    texto="Os principais requisitos para adoção de cães em ONGs parceiras da Petz são acertar na escolha do tutor para evitar devolução ou fuga. Como dito, eles fazem uma entrevista que determina se consideram a pessoa adequada ou não. 
+                     A questão de personalidade também conta, pois, por exemplo, se quiser adoção de cachorro para fazer companhia para um idoso, cães filhotes não são recomendados. Isso porque eles possuem muita energia e precisam de exercícios diários. O ideal para as ONGs é unir o cachorro à família ideal."
+                     btn="Requisitos para adoção"
+                     btn1="12 comentarios"
+                     image={img3}
+                    />
+                  
+              
+            
 
                 </article>
 
