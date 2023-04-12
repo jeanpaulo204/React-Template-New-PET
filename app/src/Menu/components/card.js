@@ -8,12 +8,12 @@ import Typography from '@mui/material/Typography';
 import Icon from '@mdi/react';
 import { mdiCommentProcessing } from '@mdi/js';
 
-export const Carde = ({title, texto, btn , comentario , image}) => {
+export const Newcard = ({title, texto, btn , comentario , image}) => {
 
 
 return (
     
-<Card sx={{ maxWidth: 450 }}>
+<Card sx={{ maxWidth: 550 }}>
 <CardActions>
         <Button variant="outlined" size="small">{btn}</Button>
         <Button variant="outlined" color="success"  size="small">{comentario} '<Icon path={mdiCommentProcessing} size={1} /></Button>
