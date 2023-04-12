@@ -5,6 +5,7 @@ import img4 from './img/img4.png';
 import img8 from './img/img8.png';
 import img7 from './img/img7.png';
 import { Carde } from '../../../Menu/components/card';
+import Typography from '@mui/material/Typography';
 
 export const Iniciobanner = () => {
 
@@ -18,46 +19,30 @@ return (
      <section>
     
             <div class="widget_title">
-                <div class="widget_title_text">Adoção de cães: como e onde adotar</div>
+                <Typography variant="h3" > Adoção de cães: como e onde adotar </Typography>
                 <div class="widget_title_bar"> </div>
             </div>
             <div class="widget_body flex">
                 <article>
-        
-
-                
-                 
                     <Carde 
                     title="Você Pode Ser Essa Familia" 
                     texto="Os principais requisitos para adoção de cães em ONGs parceiras da Petz são acertar na escolha do tutor para evitar devolução ou fuga. Como dito, eles fazem uma entrevista que determina se consideram a pessoa adequada ou não. 
                      A questão de personalidade também conta, pois, por exemplo, se quiser adoção de cachorro para fazer companhia para um idoso, cães filhotes não são recomendados. Isso porque eles possuem muita energia e precisam de exercícios diários. O ideal para as ONGs é unir o cachorro à família ideal."
                      btn="Requisitos para adoção"
-                     btn1="12 comentarios"
+                     comentario="12 comentarios"
                      image={img3}
                     />
-                  
-              
-            
-
                 </article>
 
                 <article>
-                    <a href="">
-                    <div class="new_data">
-                    <div class="new_posted_at">6 pontos para considerar antes de adotar um cão</div>
-                    <div class="new_comments">4 comentarios</div>
-                    </div>
-                    <div class="news_thumbnail">
-                    <img src={img4} alt="Dog" />
-                    </div>
-                    <div class="new_title">
-                        Novo filho
-                    </div>
-                    <div class="news_resume">Se o cãozinho estiver na feira, não quer dizer que ele não esteja precisando de atenção e carinho. Pelo contrário, é exatamente isso que ele está buscando ali. Portanto, antes de adotar um cachorro, pense sobre o tempo em que ele ficará sozinho em casa, qual a sua disposição para levá-lo para passear e se ele terá espaço para brincar e ficar livre.
 
-
-                   </div>
-                  </a>
+                  <Carde 
+                    title="Novo filho" 
+                    texto="Se o cãozinho estiver na feira, não quer dizer que ele não esteja precisando de atenção e carinho. Pelo contrário, é exatamente isso que ele está buscando ali. Portanto, antes de adotar um cachorro, pense sobre o tempo em que ele ficará sozinho em casa, qual a sua disposição para levá-lo para passear e se ele terá espaço para brincar e ficar livre."
+                     btn="6 pontos para adotar um cão"
+                     comentario="4 comentarios"
+                     image={img4}
+                    />
 
                 </article>
 

@@ -5,17 +5,19 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import { TitleTwoTone } from '@mui/icons-material';
+import Icon from '@mdi/react';
+import { mdiCommentProcessing } from '@mdi/js';
 
-export const Carde = ({title, texto, btn , btn1 , image}) => {
+export const Carde = ({title, texto, btn , comentario , image}) => {
 
 
 return (
     
-<Card sx={{ maxWidth: 400 }}>
+<Card sx={{ maxWidth: 450 }}>
 <CardActions>
-        <Button size="small">{btn}</Button>
-        <Button size="small">{btn1}</Button>
+        <Button variant="outlined" size="small">{btn}</Button>
+        <Button variant="outlined" color="success"  size="small">{comentario} '<Icon path={mdiCommentProcessing} size={1} /></Button>
+        
 </CardActions>
       <CardMedia
         sx={{ height: 300 }}
