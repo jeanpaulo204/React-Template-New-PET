@@ -21,7 +21,7 @@ return (
 
 <Box sx={{ flexGrow: 1 }}>
 <Grid container spacing={3}>
-  <Grid xl={6} sm={12} md={6}  >
+  <Grid xl={3} sm={6} md={6}  >
   <Newcard  
     title="Você Pode Ser Essa Familia" 
     texto="Os principais requisitos para adoção de cães em ONGs parceiras da Petz são acertar na escolha do tutor para evitar devolução ou fuga. Como dito, eles fazem uma entrevista que determina se consideram a pessoa adequada ou não. 
@@ -31,7 +31,7 @@ return (
      image={img3}
     />
   </Grid>
-  <Grid xl={6} sm={12} md={6}  >
+  <Grid xl={3} sm={6} md={6}  >
   <Newcard 
     title="Novo filho" 
     texto="Se o cãozinho estiver na feira, não quer dizer que ele não esteja precisando de atenção e carinho. Pelo contrário, é exatamente isso que ele está buscando ali. Portanto, antes de adotar um cachorro, pense sobre o tempo em que ele ficará sozinho em casa, qual a sua disposição para levá-lo para passear e se ele terá espaço para brincar e ficar livre."
@@ -40,7 +40,7 @@ return (
     image={img4}
    />
   </Grid>
-  <Grid xl={6} sm={12} md={6}  >
+  <Grid xl={3} sm={6} md={6}  >
   <Newcard 
     title="Lembre-se que cães adotados não estão livres de gastos" 
     texto="Ali, na hora da adoção pet, a contribuição costuma ser simbólica. Ou seja, é usada apenas para repor os gastos da ONG com o resgate e manutenção dos animaizinhos.
@@ -51,7 +51,7 @@ return (
    />
    
   </Grid>
-  <Grid xl={6} sm={12} md={6}  >
+  <Grid xl={3} sm={6} md={6}  >
 
     <Newcard 
     title="Tenha certeza de sua decisão" 

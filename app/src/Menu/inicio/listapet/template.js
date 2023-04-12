@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/App.css';
-
+import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
 
 export const Iniciolistapet = () => {
 return (
@@ -14,12 +15,32 @@ return (
              </div>
              <div class="widget_body">
              <div class="departmentscontent">
-                    <div class="one" > <a href=""></a>      </div>
-                    <div class="two">  <a href=""></a>      </div>
-                    <div class="tree"> <a href=""></a>      </div>
-                    <div class="four"> <a href=""></a>      </div>
-                    <div class="five"> <a href=""></a>      </div>
-                    <div class="six"> <a href=""></a>       </div>
+        <Box sx={{ flexGrow: 1 }}>
+             <Grid container spacing={19} >
+             <Grid item xs={4}>
+             <div class="one" >     </div>
+             
+             </Grid>
+             <Grid item xs={4}>
+             <div class="two">     </div>
+             
+             </Grid>
+             </Grid>
+        </Box>
+         <Box sx={{ flexGrow: 1 }}>
+             <Grid container spacing={19} >
+             <Grid item xs={4}>
+             <div class="tree" >     </div>
+             
+             </Grid>
+             <Grid item xs={4}>
+             <div class="four">     </div>
+             
+             </Grid>
+             </Grid>
+         </Box>
+        
+            
              </div>
              </div>
          </div>

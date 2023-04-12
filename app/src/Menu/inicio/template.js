@@ -21,20 +21,15 @@ return (
 <section className='InicioMobile'>
 
 
-<Box sx={{ flexGrow: 1 }}>
-    <Grid container spacing={2} columns={16}>
-    <Grid item xs={8}>
 
     <br/>
     <Typography variant="h3" > Adoção de cães: como e onde adotar </Typography>
     <br/>
     <Iniciobanner/>   
-    </Grid>
-    <Grid item xs={8}>
+
     <Iniciolistapet/>
-    </Grid>
-    </Grid>
-</Box>
+
+
 
  
 
