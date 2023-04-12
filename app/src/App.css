@@ -1,4 +1,6 @@
 
+
+
 .Box{
 margin-top: 50px;
 margin-bottom: 50px;
@@ -91,6 +93,12 @@ font-family: fantasy;
 
 /* Estilos para celular */
 @media only screen and (max-width: 767px) {
+
+
+  .InicioMobile{
+    margin-top: 900px;
+  }
+  
 
   .App {
     text-align: center;
@@ -190,6 +198,11 @@ font-family: fantasy;
 
 /* Estilos para tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .InicioMobile{
+    margin-top: 600px;
+  }
+
   .App {
     text-align: center;
   }
