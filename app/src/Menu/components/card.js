@@ -15,8 +15,8 @@ export const Newcard = ({title, texto, btn , comentario , image}) => {
 
 return (
     
-<Card sx={{ maxWidth: 550 }}>
-<CardActions>
+<Box sx={{ maxWidth: 550 }}>
+<CardActions component="span" sx={{ p: 0, border: '1px dashed grey' }}>
         
    
   <Box sx={{ flexGrow: 1 }}>
@@ -45,7 +45,7 @@ return (
         </Typography>
       </CardContent>
  
-    </Card>
+    </Box>
 
 
 );
