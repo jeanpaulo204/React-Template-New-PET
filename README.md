@@ -11,4 +11,3 @@ A biblioteca React-Router-Dom foi adicionada para controlar as rotas da sua apli
 Por fim, a biblioteca React-Slick foi instalada para permitir a criação de carrosséis e slideshows mais complexos e personalizados, melhorando a experiência do usuário e adicionando recursos adicionais ao projeto.
 
 
-dfdfd
