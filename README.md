@@ -9,3 +9,6 @@ O Web Vitals foi instalado para medir e monitorar a performance da aplicação w
 A biblioteca React-Router-Dom foi adicionada para controlar as rotas da sua aplicação, permitindo a criação de navegação e roteamento dentro do seu projeto.
 
 Por fim, a biblioteca React-Slick foi instalada para permitir a criação de carrosséis e slideshows mais complexos e personalizados, melhorando a experiência do usuário e adicionando recursos adicionais ao projeto.
+
+
+dfdfd
