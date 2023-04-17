@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-const Denunciar = () => {
+const Informar = () => {
     return (
         <div>
-        Header
+        Informar
         </div>
     );
 }
 
-export default Denunciar;
+export default Informar;

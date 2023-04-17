@@ -3,8 +3,8 @@ import Typography from '@mui/material/Typography';
 import { Slider } from './templatecard/imageCard';
 import { Iniciobanner } from './bannercard/template';
 import { Iniciolistapet } from './listapet/template';
+import Grid from '@mui/material/Unstable_Grid2';
 import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
 
 
 export const Iniciopage = () => {
@@ -14,28 +14,27 @@ export const Iniciopage = () => {
 
 return (
 
-<div >
-<section>
+
+<Box sx={{ width: '100%' }}>
 <Slider/>
-</section>
-<section className='InicioMobile'>
 
 
-
-    <br/>
+    <Grid   className='InicioMobile'>
+<br/>   
     <Typography variant="h3" > Adoção de cães: como e onde adotar </Typography>
-    <br/>
-    <Iniciobanner/>   
-
-    <Iniciolistapet/>
+<br/>
+        <Iniciobanner/>   
+        <Iniciolistapet/>
+ 
+    </Grid>
+</Box>
 
 
 
  
 
 
-</section>
-</div>
+
 
 
 );

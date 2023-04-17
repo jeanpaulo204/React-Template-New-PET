@@ -119,8 +119,8 @@ return (
 
             <Button color="secondary"><Link className="header" to="/">Inicio</Link></Button>
             <Button color="secondary"><Link className="header" to="/denunciar">Denuciar-Maus Tratos</Link></Button>
-            <Button color="secondary"><Link className="header" to="/">Adotar-Me</Link></Button>
-            <Button color="secondary"><Link className="header" to="/">Informações</Link></Button>
+            <Button color="secondary"><Link className="header" to="/adotar-me">Adotar-Me</Link></Button>
+            <Button color="secondary"><Link className="header" to="/informacoes">Informações</Link></Button>
   
             </Stack>
           </Box>

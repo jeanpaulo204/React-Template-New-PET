@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-const Denunciar = () => {
+const Adotar = () => {
     return (
         <div>
-        Header
+        Adotar
         </div>
     );
 }
 
-export default Denunciar;
+export default Adotar;
