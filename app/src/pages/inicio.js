@@ -1,6 +1,7 @@
 import React from 'react';
 import { Iniciopage } from '../Menu/inicio/template';
 import { Header } from '../Menu/components/header';
+import { Footer } from '../Menu/components/footer'
 
 
 const Inicio = () =>{
@@ -8,6 +9,7 @@ const Inicio = () =>{
     <div>
       <Header/>
       <Iniciopage/>
+      <Footer/>
     </div>
 
    
