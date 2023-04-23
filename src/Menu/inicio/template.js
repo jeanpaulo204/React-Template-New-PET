@@ -20,9 +20,10 @@ return (
 
 
     <Grid   className='InicioMobile'>
-<br/>   
-    <Typography variant="h3" > Adoção de cães: como e onde adotar </Typography>
+    <br/>
+<Typography variant="h3" > Adoção de cães: como e onde adotar </Typography>
 <br/>
+
         <Iniciobanner/>   
         <Iniciolistapet/>
  

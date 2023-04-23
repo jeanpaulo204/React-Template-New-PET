@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { Header } from '../src/Menu/components/header';
-
+import { Footer } from '../src/Menu/components/footer'
 
 import Inicio from "./pages/inicio";
 import Adotar from "./pages/adotar";
@@ -20,7 +20,7 @@ const Rotas = () => {
                 <Route element = { <Adotar /> }  path="/adotar-me" />  
                 <Route element = { <Informar /> }  path="/informacoes" />  
             </Routes>   
-    
+        <Footer/>
        </BrowserRouter>
    )
 }

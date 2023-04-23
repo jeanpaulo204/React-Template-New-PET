@@ -1,0 +1,24 @@
+.Newflex{
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+
+
+/* Estilos para celular */
+@media only screen and (max-width: 767px) {
+
+    .Newflex{
+        display: grid;
+        justify-content: center;
+        gap: 30px;
+        }
+  
+  }
+  
+  /* Estilos para tablets */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  
+
+  }
+  

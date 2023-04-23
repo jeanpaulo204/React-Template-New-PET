@@ -4,8 +4,8 @@ import { Iniciopage } from '../Menu/inicio/template';
 
 
 const Inicio = () =>{
-  return (
-      <Iniciopage/>
+  return (  
+  <Iniciopage/>
   );
 }
 

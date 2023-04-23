@@ -20,8 +20,8 @@ return (
 <section>
 
 <Box sx={{ flexGrow: 1 }}>
-<Grid container spacing={3}>
-  <Grid xl={3} sm={6} md={6}  >
+<div className="Newflex">
+<Grid xl={3} sm={6} md={6}  >
   <Newcard  
     title="Você Pode Ser Essa Familia" 
     texto="Os principais requisitos para adoção de cães em ONGs parceiras da Petz são acertar na escolha do tutor para evitar devolução ou fuga. Como dito, eles fazem uma entrevista que determina se consideram a pessoa adequada ou não. 
@@ -40,6 +40,11 @@ return (
     image={img4}
    />
   </Grid>
+
+</div>
+
+<div className="Newflex">
+
   <Grid xl={3} sm={6} md={6}  >
   <Newcard 
     title="Lembre-se que cães adotados não estão livres de gastos" 
@@ -62,7 +67,8 @@ return (
     image={img8}
     />
     </Grid>
-</Grid>
+</div>
+
 </Box>
 </section>
 
